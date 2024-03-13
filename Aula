@@ -1,0 +1,53 @@
+void main() {
+  /*faça um cadastro de alunos em um curso, esse cadastro deve conter nome, idade, endereço, nome da mãe, cpf, e curso desejado (8 cadastros unicos) */
+ 
+  List<String> nomes = ['Eike', 'João', 'Kauã', 'Audrey', 'Renan', 'Dari', 'Gabriela', 'Jhuan'];
+ 
+ 
+  List<int> idade = [16, 18, 20, 15, 17, 19, 30, 21];
+ 
+ 
+  List<String> endereco = ['Rua Ocimar Tessinari 07', 'Avenida Brasil 1813', 'Rua Henrique Cardoso de Macedo, 589', 'Rua Expedito José Sousa Farias 117', 'Rua Paulino Félix 99', 'Avenida Benjamin Central, 597', 'Rua João Soares Lima, 770', 'Rua Jerônimo Monteiro 45'];
+ 
+ 
+  List<String> nomeMae = ['Olivia Eduarda Heloisa', 'Maria Clarice Eliane', 'Olivia Fernanda', 'Sophia Raquel', 'Ester Silvana Kamilly', 'Emily Jennifer', 'Gabriela Giovanna Isadora', 'Letícia Malu'];
+ 
+ 
+  List<int> cpf = [08945763996, 14243341958, 48962126907, 94870932903, 00288840941, 57225966987, 83293984983, 27761414912];
+ 
+ 
+  List<String> cursos = ['Engenharia Mecatrônica', 'Engenharia Civil', 'Engenharia da Computação', 'Engenharia Aéronautica', 'Física', 'Química', 'Letras', 'T.D.S'];
+ 
+  print(' ${nomes[0]} tem ${idade[0]} anos, seu endereço é: ${endereco[0]}, nome de sua mãe: ${nomeMae[0]}, seu CPF: ${cpf[0]} e seu curso desejado é: ${cursos[0]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[1]} tem ${idade[1]} anos, seu endereço é: ${endereco[1]}, nome de sua mãe: ${nomeMae[1]}, seu CPF: ${cpf[1]} e seu curso desejado é: ${cursos[1]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[2]} tem ${idade[2]} anos, seu endereço é: ${endereco[2]}, nome de sua mãe: ${nomeMae[2]}, seu CPF: ${cpf[2]} e seu curso desejado é: ${cursos[2]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[3]} tem ${idade[3]} anos, seu endereço é: ${endereco[3]}, nome de sua mãe: ${nomeMae[3]}, seu CPF: ${cpf[3]} e seu curso desejado é: ${cursos[3]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[4]} tem ${idade[4]} anos, seu endereço é: ${endereco[4]}, nome de sua mãe: ${nomeMae[4]}, seu CPF: ${cpf[4]} e seu curso desejado é: ${cursos[4]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[5]} tem ${idade[5]} anos, seu endereço é: ${endereco[5]}, nome de sua mãe: ${nomeMae[5]}, seu CPF: ${cpf[5]} e seu curso desejado é: ${cursos[5]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[6]} tem ${idade[6]} anos, seu endereço é: ${endereco[6]}, nome de sua mãe: ${nomeMae[6]}, seu CPF: ${cpf[6]} e seu curso desejado é: ${cursos[6]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+    print(' ${nomes[7]} tem ${idade[7]} anos, seu endereço é: ${endereco[7]}, nome de sua mãe: ${nomeMae[7]}, seu CPF: ${cpf[7]} e seu curso desejado é: ${cursos[7]}');
+ 
+  print('---------------------------------------------------------------------');
+ 
+}
