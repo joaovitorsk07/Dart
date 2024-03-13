@@ -1,4 +1,4 @@
-void main() {
+o bicho void main() {
   /*faça um cadastro de alunos em um curso, esse cadastro deve conter nome, idade, endereço, nome da mãe, cpf, e curso desejado (8 cadastros unicos) */
  
   List<String> nomes = ['Eike', 'João', 'Kauã', 'Audrey', 'Renan', 'Dari', 'Gabriela', 'Jhuan'];
@@ -63,5 +63,5 @@ print(frutas);
 }*/
 
 void main(){
-  //mapa com todas informações, nome, genero, idade, altura, status
+  //mapa com todas informações, nome, genero, idade, altura, status e do bicho de estimação
 }
